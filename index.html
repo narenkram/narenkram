@@ -10,15 +10,85 @@
 </head>
 
 <body>
-    <main class="container">
-        <section class="mt-6">
+    <main class="container py-5">
+        <section class="mt-5 mb-2">
             <div class="row">
                 <div class="col-12 text-center">
                     <img src="./assets/images/narendra_ram.png" class="img-fluid Avatar" alt="">
                     <br />
-                    <sub>@narenkram</sub>
-                    <h2>Narendra Ram</h2>
-                    <h5>Welcome to my corner of the Internet!</h5>
+                    <small>@narenkram</small>
+                    <h1><b>Narendra Ram</b></h1>
+                    <p>Welcome to my corner of the Internet!</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="pb-5">
+            <div class="row justify-content-center">
+                <div class="col-auto">
+                    <h2><b>About Me</b></h2>
+                    <ul class="list-unstyled">
+                        <li><span>👨</span>25 years old</li>
+                        <li><span>🇮🇳</span> From India</li>
+                        <li><span>🧑‍💻</span> Full Stack Designer</li>
+                        <li><span>⚒️</span> UI, UX design, and Frontend</li>
+                        <li><span>✍️</span>Freelance Writing</li>
+                    </ul>
+                </div>
+                <div class="col-auto">
+                    <h2><b>My Products</b></h2>
+                    <ul class="list-unstyled">
+                        <li><span>🛍️</span> E-Com Kit</li>
+                        <li><span>♾️</span> blaz.app</li>
+                    </ul>
+
+                    <h2><b>Folios</b></h2>
+                    <ul class="list-unstyled">
+                        <li><span></span>Dribbble</li>
+                        <li><span></span>Behance</li>
+                    </ul>
+                </div>
+                <div class="col-auto">
+                    <h2><b>Social Media</b></h2>
+                    <ul class="list-unstyled">
+                        <li>
+                            <span>🐦</span>
+                            <a href="#">Twitter</a>
+                        </li>
+                        <li>
+                            <span>💼</span>
+                            <a href="#">Linkedin</a>
+                        </li>
+                        <li>
+                            <span>🎥</span>
+                            <a href="#">YouTube</a>
+                        </li>
+                    </ul>
+                    <h2><b>Books</b></h2>
+                    <ul class="list-unstyled">
+                        <li><span>📕</span><a href="#">The Invisible Solitary</a></li>
+                    </ul>
+                </div>
+                <div class="col-auto">
+                    <h2><b>Other Places</b></h2>
+                    <ul class="list-unstyled">
+                        <li>
+                            <span>⌨️</span>
+                            <a href="#">GitHub</a>
+                        </li>
+                        <li>
+                            <span>🛣️</span>
+                            <a href="#">Gumroad</a>
+                        </li>
+                        <li>
+                            <span>🍕</span>
+                            <a href="#">Buy me a pizza</a>
+                        </li>
+                        <li>
+                            <span>💰</span>
+                            <a href="#">Paypal</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </section>
@@ -26,67 +96,32 @@
         <section>
             <div class="row justify-content-center">
                 <div class="col-auto">
-                    <h3>About Me</h3>
-                    <ul class="list-unstyled">
-                        <li>👨 25 years old</li>
-                        <li>🇮🇳 From India</li>
-                        <li>🧑‍💻 Full Stack Designer</li>
-                        <li>⚒️ UI, UX design, and Frontend</li>
-                        <li>✍️ Freelance Writing</li>
-                    </ul>
-                </div>
-                <div class="col-auto">
-                    <h3>My Products</h3>
-                    <ul class="list-unstyled">
-                        <li>🛍️ E-Com Kit</li>
-                        <li>♾️ blaz.app</li>
-                    </ul>
-
-                    <h3>Design Folios</h3>
-                    <ul class="list-unstyled">
-                        <li>Dribbble</li>
-                        <li>Behance</li>
-                    </ul>
-                </div>
-                <div class="col-auto">
-                    <h3>Social Media</h3>
-                    <ul class="list-unstyled">
-                        <li>
-                            <a href="#">🐦 Twitter</a>
-                        </li>
-                        <li>
-                            <a href="#">💼 Linkedin</a>
-                        </li>
-                        <li>
-                            <a href="#">📽️ YouTube</a>
-                        </li>
-                    </ul>
-                    <h3>Books</h3>
-                    <ul class="list-unstyled">
-                        <li>📕 The Invisible Solitary</li>
-                    </ul>
-                </div>
-                <div class="col-auto">
-                    <h3>Other Places</h3>
-                    <ul class="list-unstyled">
-                        <li>⌨️ GitHub</li>
-                        <li>🛣️ Gumroad</li>
-                        <li>☕ Buy me a coffee</li>
-                        <li>💰 Paypal</li>
-                    </ul>
+                    <div id="revue-embed">
+                        <form action="https://www.getrevue.co/profile/narenkram/add_subscriber" method="post"
+                            id="revue-form" name="revue-form" target="_blank">
+                            <div class="revue-form-group">
+                                <label for="member_email">Get notified when I make new stuff! 👇</label>
+                                <input class="revue-form-field" placeholder="Your email address..." type="email"
+                                    name="member[email]" id="member_email">
+                            </div>
+                            <div class="revue-form-actions">
+                                <input type="submit" value="Subscribe" name="member[subscribe]" id="member_submit">
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </section>
     </main>
 </body>
 
-<div class="overlay">
+<!-- <div class="overlay">
     <h1>
         Im still working on this project, <br />check back few days later!
     </h1>
     <br />
     <h4>Visit <a href="https://narendra.design">https://narendra.design</a> for now.</h4>
-</div>
+</div> -->
 
 </html>
 

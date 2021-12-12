@@ -1,7 +1,18 @@
-.Avatar{
-    height: 100px;
+/* Fonts Imported here */
+@font-face {
+    font-family: SourceSans3;
+    src: url("../fonts/SourceSans3-VariableFont_wght.ttf");
 }
 
+@font-face {
+    font-family: SourceSans3Italic;
+    src: url("../fonts/SourceSans3-Italic-VariableFont_wght.ttf");
+}
+
+
+* {
+    font-family: SourceSans3;
+}
 
 @media (prefers-color-scheme: light) {
 
@@ -21,4 +32,12 @@
     }
 }
 
+a {
+    color: inherit;
+    text-decoration: none;
+    border-bottom: 1px dashed #aaa;
+}
 
+.Avatar {
+    height: 100px;
+}
