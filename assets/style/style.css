@@ -1,0 +1,24 @@
+.Avatar{
+    height: 100px;
+}
+
+
+@media (prefers-color-scheme: light) {
+
+    html,
+    body {
+        color: #000000;
+        background-color: #ffffff;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+
+    html,
+    body {
+        color: #ffffff;
+        background-color: #000000;
+    }
+}
+
+
