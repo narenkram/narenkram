@@ -41,3 +41,18 @@ a {
 .Avatar {
     height: 100px;
 }
+
+.List {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.List__item {
+    margin: 10px 0;
+    padding: 0;
+}
+
+.Emoji {
+    margin-right: 10px;
+}
