@@ -1,17 +1,22 @@
 /* Fonts Imported here */
 @font-face {
-    font-family: SourceSans3;
-    src: url("../fonts/SourceSans3-VariableFont_wght.ttf");
+    font-family: SansBlack;
+    src: url("../fonts/SourceSans3-Bold.ttf");
 }
 
 @font-face {
-    font-family: SourceSans3Italic;
-    src: url("../fonts/SourceSans3-Italic-VariableFont_wght.ttf");
+    font-family: SansBold;
+    src: url("../fonts/SourceSans3-SemiBold.ttf");
 }
 
+@font-face {
+    font-family: SansRegular;
+    src: url("../fonts/SourceSans3-Medium.ttf");
+}
 
-* {
-    font-family: SourceSans3;
+@font-face {
+    font-family: SansThin;
+    src: url("../fonts/SourceSans3-Light.ttf");
 }
 
 @media (prefers-color-scheme: light) {
@@ -46,6 +51,7 @@ a {
     list-style: none;
     padding: 0;
     margin: 0;
+    display: inline-block;
 }
 
 .List__item {
@@ -55,4 +61,30 @@ a {
 
 .Emoji {
     margin-right: 10px;
+}
+
+
+
+* {
+    font-family: SansRegular;
+}
+
+h1 {
+    font-family: SansBlack;
+}
+
+h2 {
+    font-family: SansBold;
+}
+
+h3 {
+    font-family: SansBlack;
+}
+
+small {
+    font-family: SansThin;
+}
+
+.container{
+    max-width: 960px;
 }
