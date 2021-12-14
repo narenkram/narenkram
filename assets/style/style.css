@@ -52,7 +52,7 @@ a {
 }
 
 a:hover {
-    color: #FF6666;
+    color: #FF6666!important;
 }
 
 .Avatar {
