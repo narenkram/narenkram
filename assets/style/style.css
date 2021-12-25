@@ -52,7 +52,7 @@ a {
 }
 
 a:hover {
-    color: #FF6666!important;
+    color: #FF6666 !important;
 }
 
 .Avatar {
@@ -73,9 +73,11 @@ a:hover {
 
 .Emoji {
     margin-right: 10px;
+    width: 20px;
+    display: inline-block;
 }
 
- 
+
 
 * {
     font-family: SansRegular;
