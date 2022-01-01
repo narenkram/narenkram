@@ -79,37 +79,27 @@ a:hover {
     font-family: emoji;
 }
 
-.Newsfeed {
-    display: block;
-}
-
-.Newsfeed ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    justify-content: center;
-    display: flex;
-    flex-direction: row;
-}
-
-.Newsfeed ul li a {
-    font-family: SansBold;
-    font-size: large;
-}
-
-.Newsfeed ul li {
-    font-family: SansThin;
-    word-wrap: break-word;
-    width: 100%;
+/* https://rss.bloople.net/ css customization */
+.feed-list {
     border: 1px dashed;
     border-radius: 6px;
     padding: 1.5rem;
     text-align: left;
 }
 
-.Newsfeed ul li::after {
-    content: "...";
+.feed-title {}
+
+.feed-desc {}
+
+.feed-title-image {}
+
+.feed-item-title {
+    font-size: large;
+    padding-top: 12px;
+    padding-bottom: 12px;
 }
+
+.feed-item-desc {}
 
 * {
     font-family: SansRegular;
@@ -125,6 +115,10 @@ h2 {
 
 h3 {
     font-family: SansBlack;
+}
+
+h4 {
+    font-family: SansBold;
 }
 
 small {

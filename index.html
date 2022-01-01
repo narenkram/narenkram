@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./assets/images/narendra_ram.png" type="image/x-icon">  
+    <link rel="shortcut icon" href="./assets/images/narendra_ram.png" type="image/x-icon">
     <meta name="keywords"
         content="narendra ram, narendra, ram, full stack designer, designer narendra, narenkram, freelance designer, narendra's personal website, aroliant cofounder, narendra tirunelveli, frontend developer, narendra krishna ram, ui/ux designer, ui designer, ux designer, tamilnadu, india,">
     <title>Narendra Krishna Ram's Personal Website</title>
@@ -194,27 +194,22 @@
             </div>
         </section>
 
-        <section id="newsletter" class="mt-5">
+        <section class="mt-5 text-center">
+            <h2 class="fs-4"><span class="Emoji">🗞️</span> Latest Updates</h2>
             <div class="row justify-content-center">
-                <div class="col-auto text-center">
-                    <h2 class="fs-4"><span class="Emoji">🗞️</span> Latest Updates</h2>
-                    <div id="newsletter_feed" class="Newsfeed">
-
-                    </div>
+                <div class="col-auto feed-list">
+                    <script
+                        src="https://rss.bloople.net/?url=https%3A%2F%2Fwww.getrevue.co%2Fprofile%2Fnarenkram%2F%3Fformat%3Drss&detail=-1&showtitle=false&showempty=true&fixbugs=true&type=js">
+                        </script>
                 </div>
             </div>
+        </section>
+
+        <section>
+
+
         </section>
     </main>
 </body>
 
 </html>
-
-<script src="./assets/js/jquery-1.6.4.min.js"></script>
-<script src="./assets/js/moment.min.js"></script>
-<script src="./assets/js/jquery.rss.min.js"></script>
-
-<script>
-    jQuery(function ($) {
-        $("#newsletter_feed").rss("https://www.getrevue.co/profile/narenkram/?format=rss");
-    });
-</script>
