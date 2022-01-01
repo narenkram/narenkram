@@ -79,7 +79,37 @@ a:hover {
     font-family: emoji;
 }
 
+.Newsfeed {
+    display: block;
+}
 
+.Newsfeed ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.Newsfeed ul li a {
+    font-family: SansBold;
+    font-size: large;
+}
+
+.Newsfeed ul li {
+    font-family: SansThin;
+    word-wrap: break-word;
+    width: 100%;
+    border: 1px dashed;
+    border-radius: 6px;
+    padding: 1.5rem;
+    text-align: left;
+}
+
+.Newsfeed ul li::after {
+    content: "...";
+}
 
 * {
     font-family: SansRegular;

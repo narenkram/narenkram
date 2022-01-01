@@ -180,7 +180,7 @@
             <div class="row justify-content-center" id="revue-embed">
                 <form class="col-auto text-center" action="https://www.getrevue.co/profile/narenkram/add_subscriber"
                     method="post" id="revue-form" name="revue-form" target="_blank">
-                    <p class="mb-2">Get notified when I make new stuff! 👇</p>
+                    <p class="mb-2">Get notified when I make new stuff! <span class="Emoji m-0">👇</span></p>
 
                     <div class="d-flex flex-row">
                         <input class="form-control" placeholder="Your email address" type="email" name="member[email]"
@@ -188,11 +188,32 @@
                         <input class="btn btn-primary ms-1" type="submit" value="Subscribe" name="member[subscribe]"
                             id="member_submit">
                     </div>
-                    <p class="mt-2">I write once a month ❤️</p>
+                    <p class="mt-2">I write once a month <span class="Emoji m-0">❤️</span></p>
                 </form>
+            </div>
+        </section>
+
+        <section id="newsletter" class="mt-5">
+            <div class="row justify-content-center">
+                <div class="col-auto text-center">
+                    <h2 class="fs-4"><span class="Emoji">🗞️</span> Latest Updates</h2>
+                    <div id="newsletter_feed" class="Newsfeed">
+
+                    </div>
+                </div>
             </div>
         </section>
     </main>
 </body>
 
 </html>
+
+<script src="./assets/js/jquery-1.6.4.min.js"></script>
+<script src="./assets/js/moment.min.js"></script>
+<script src="./assets/js/jquery.rss.min.js"></script>
+
+<script>
+    jQuery(function ($) {
+        $("#newsletter_feed").rss("https://www.getrevue.co/profile/narenkram/?format=rss");
+    });
+</script>
