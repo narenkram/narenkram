@@ -85,6 +85,7 @@ a:hover {
     border-radius: 6px;
     padding: 1.5rem;
     text-align: left;
+    width: 100%;
 }
 
 .feed-title {}
@@ -97,6 +98,7 @@ a:hover {
     font-size: large;
     padding-top: 12px;
     padding-bottom: 12px;
+    line-height: 32px;
 }
 
 .feed-item-desc {}
