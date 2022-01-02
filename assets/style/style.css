@@ -79,6 +79,12 @@ a:hover {
     font-family: emoji;
 }
 
+
+.Username {
+    text-decoration: none !important;
+    cursor: alias !important;
+}
+
 /* https://rss.bloople.net/ css customization */
 .feed-list {
     border: 1px dashed;
