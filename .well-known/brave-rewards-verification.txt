@@ -1,4 +1,0 @@
-This is a Brave Rewards publisher verification file.
-
-Domain: narenkram.com
-Token: 0c351e0bad299fff6376f73e8b282c73ccd8889fb250f9821c4fb4df2a28e5be
