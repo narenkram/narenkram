@@ -19,6 +19,12 @@
     src: url("../fonts/SourceSans3-Light.ttf");
 }
 
+/* @font-face {
+    font-family: OpenMoji;
+    src: url("../fonts/OpenMoji-Color.ttf");
+} */
+
+
 @media (prefers-color-scheme: light) {
 
     html,
