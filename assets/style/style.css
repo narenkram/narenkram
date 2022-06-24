@@ -36,6 +36,10 @@
     small {
         color: rgb(29, 29, 29);
     }
+
+    .feed-list a {
+        color: inherit !important;
+    }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -48,6 +52,10 @@
 
     small {
         color: #fff;
+    }
+
+    .feed-list a {
+        color: #ffffff !important;
     }
 }
 
