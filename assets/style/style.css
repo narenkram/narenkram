@@ -108,7 +108,14 @@ a:hover {
     width: 100%;
 }
 
-.feed-title {}
+.feed-title {
+    display: none;
+}
+
+.feed-title ~ div{
+    display: none;
+}
+
 
 .feed-desc {}
 
