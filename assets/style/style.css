@@ -70,8 +70,36 @@ a:hover {
 }
 
 .Avatar {
-    height: 100px;
+    margin-bottom: 10px;
 }
+
+.RealAvatar {
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+    display: none;
+}
+
+.ThreeD_Avatar {
+    height: 100px;
+    width: 100px;
+    display: none;
+    background-image: url("../images/low_res_animated_gif.gif");
+    border-radius: 50%;
+    background-position: -18px -20px;
+    background-size: 152px;
+    margin: 0 auto;
+    display: block;
+}
+
+.Avatar:hover .ThreeD_Avatar {
+    display: none;
+}
+
+.Avatar:hover .RealAvatar {
+    display: block;
+}
+
 
 .List {
     list-style: none;
@@ -112,7 +140,7 @@ a:hover {
     display: none;
 }
 
-.feed-title ~ div{
+.feed-title~div {
     display: none;
 }
 
