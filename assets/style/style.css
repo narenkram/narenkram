@@ -113,6 +113,27 @@ a:hover {
     padding: 0;
 }
 
+.List__item_magic_text{
+
+}
+
+.List__item_magic_text::before{
+    content: 'magic';
+    animation: keepflipping infinite 8s;
+}
+
+@keyframes keepflipping {
+    0%{
+        content: 'Neurodivergent';
+    }
+    50%{
+        content: 'Biryani';
+    }
+    100%{
+        content: 'Agnostic';
+    }
+}
+
 .Emoji {
     margin-right: 10px;
     width: 20px;
@@ -121,6 +142,22 @@ a:hover {
     font-family: emoji;
 }
 
+.Emoji_magic::before{
+    content: 'magic_icon';
+    animation: keepchanging infinite 8s;
+}
+
+@keyframes keepchanging {
+    0%{
+        content: '🧠';
+    }
+    50%{
+        content: '😋';
+    }
+    100%{
+        content: '💡';
+    }
+}
 
 .Pronouns {
     text-decoration: none !important;
